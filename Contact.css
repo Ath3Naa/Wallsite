@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Poppins:wght@100&display=swap');
+
+*{
+  font-family: 'Poppins' , 'sans-serif';
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: black;
+}
+/*navbar*/
+
+.hero{
+  height: 100vh;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav h2 a{
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+
+
+.logo{
+  color: white;
+  font-size: 28px;
+
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.logo2{
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.logo2:hover:hover{
+  cursor: pointer;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+nav ul li a:hover{
+  /*font-size: 17px;*/
+  transform: translateX();
+  color: aquamarine;
+  transition: 0.4s;
+}
+
+button{
+  border: none;
+  background: aquamarine;
+  padding: 5px 15px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 800;
+  transition: .4s;
+}
+
+button:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/*navbar-end*/
+
+.container1 {
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+
+
+}

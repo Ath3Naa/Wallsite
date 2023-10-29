@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+}
+
+/*navbar*/
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav h2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo2{
+    color: aquamarine;
+}
+
+.logo2:hover:hover{
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    /*font-size: 17px;*/
+    transform: translateX();
+    color: aquamarine;
+    transition: 0.4s;
+}
+
+button{
+    border: none;
+    background: aquamarine;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/*navbar-end*/
+
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: #FFFFFF;
+    border-color: antiquewhite;
+}
+
+.img-gallery img:hover{
+    transform: scale(1.08);
+    transition: 0.4s;
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img{
+    width: 90%;
+    max-width: 1300px;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transform: rotate(-45deg);
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .footer .copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .footer .credits {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .footer .credits a {
+    color: var(--color-primary);
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ArtStation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" type="x-icon" href="Sources/logos/favicon.png">
+</head>
+<body>
+    <div class="Hero">
+        <nav>
+          <h2 class="logo"><a href="index.html">Art<span class="logo2"> Station</span></a></h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <button type="button">Register</button>
+        </nav>
+    </div>
+    <div class="full-img" id="fullImgBox">
+        <img src="Sources/1.png" id="fullImg">
+        <span onclick="closeFullImg()">+</span>
+    </div>
+    <div class="img-gallery">
+        <img src="Sources/1.png" onclick="openFullImg(this.src)">
+        <img src="Sources/2.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/3.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/4.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/5.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/6.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/7.png" onclick="openFullImg(this.src)">
+        <img src="Sources/8.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/9.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/10.png" onclick="openFullImg(this.src)">
+        <img src="Sources/11.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/12.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/13.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/14.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/15.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/17.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/18.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/38.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/20.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/21.png" onclick="openFullImg(this.src)">
+        <img src="Sources/22.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/23.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/24.png" onclick="openFullImg(this.src)">
+        <img src="Sources/25.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/26.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/27.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/28.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/29.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/30.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/31.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/32.png" onclick="openFullImg(this.src)">
+        <img src="Sources/33.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/34.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/35.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/36.png" onclick="openFullImg(this.src)">
+        <img src="Sources/37.jpg" onclick="openFullImg(this.src)">
+        <img src="Sources/19.jpeg" onclick="openFullImg(this.src)">
+
+    </div>
+
+     <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ArtStation</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://athenaa.com/">Team Athenaa</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+<!--------------SCRIPTSSSSSS-------------->
+
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+</body>
+</html>
